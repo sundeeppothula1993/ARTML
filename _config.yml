@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: ART ML
+description: A blog on Adaptive real time Machine learning technique
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://sundeeppothula1993.github.io/ARTML/
 baseurl: "/ARTML/"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: sundeeppothula1993
+   twitter: sundeeppothula
+   facebook: sundeep pothula
+   email: sundeeppothula@gmail.com
 
 google_analytics: "UA-58263416-1"
