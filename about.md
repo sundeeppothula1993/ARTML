@@ -6,7 +6,7 @@ published: true
 
 <div class="post">
 	<h1 class="pageTitle"> </h1>
-  	<h2> What is Adaptive Real time machine learning?</h2>
+  	<h3> What is Adaptive Real time machine learning?</h3>
   		<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
   	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/real_time_machine_learnin.jpg' | prepend: site.baseurl }}" >
