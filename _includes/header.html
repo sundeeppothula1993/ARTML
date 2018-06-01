@@ -1,8 +1,8 @@
  <div class="header">
      <div class="container"> 
-      <style> .custom {font-family: sans-serif; color: E4F1FE ;text-align: center;font-size:30px;text-decoration: none;} 
+      <style> .special {font-family: sans-serif; color: E4F1FE ;text-align: center;font-size:30px;text-decoration: none;} 
       </style>
-         <p class = "custom"><a href="{{ site.baseurl }}/">{{ site.title }}</a> </p> 
+         <p class = "special"><a href="{{ site.baseurl }}/">{{ site.title }}</a> </p> 
          <nav class="nav-collapse">
              <ul class="noList">
                  {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' %}{% assign current = 'current' %}{% endif %}
