@@ -2,7 +2,6 @@
 layout: post
 title: What is ART-ML
 date: 2018-06-1
-image: title.jpg
 published: true
 ---
 
