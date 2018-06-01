@@ -18,26 +18,7 @@ published: true
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" >
   	<div class="body">
       	<p> Many of the exsisting complex real time machine learning methods only rely on Incremental learning technqiues limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
-      </div>
-  <div class="videobox parbase section"> 
-         <a href="https://youtu.be/-L0WIMY_gaU"> <h3> <span itemprop="name"></span> </h3> 
-          <div id="element-563893c3-c626-4a11-988f-ea554cf97284" class="video-box video-box-full" itemscope="" itemtype="http://schema.org/VideoObject" data-video-url="https://youtu.be/-L0WIMY_gaU" data-start-time="0" data-video-name="" data-video-path="/kinesis/streaming-analytics-webinar"> 
-           <meta itemprop="duration" content="T0S" /> 
-           <meta itemprop="thumbnailUrl" content="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
-           <meta itemprop="embedURL" content="https://youtu.be/-L0WIMY_gaU" /> 
-           <div class="thumb"> 
-            <i class="play-video"></i> 
-            <div class="image thumbnail parbase"> 
-             <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
-            </div> 
-           </div>
-                   <div class="video-meta"> 
-           </div> 
-          </div> </a> 
-         <script>
-  require(["scripts"], function() {
-    $.awsComponent.videoBox('#element-563893c3-c626-4a11-988f-ea554cf97284');
-  });
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=-L0WIMY_gaU&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
 	<ul>
 		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
   		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
