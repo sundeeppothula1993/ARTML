@@ -50,5 +50,5 @@ published: true
   	</ul>
 </div>
 	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
-	<img src="{{ '/assets/img/real_time_machine_learnin.jpg' | prepend: site.baseurl }}" >
+	<img src="{{ '/assets/img/title.PNG' | prepend: site.baseurl }}" >
 	
