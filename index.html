@@ -7,12 +7,16 @@ published: true
 <div class="home" id="home">
   <h1 class="pageTitle">Recent Posts</h1>
   <ul class="posts noList">
+    .box { margin-bottom: 20px; padding: 20px; border: 3px solid =333;}
     {% for post in paginator.posts %}
       <li>
+      <div class = "box">
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
         <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncatewords = 100}}{% endif %}</p>
+      </div
       </li>
+        
     {% endfor %}
   </ul>
   <!-- Pagination links -->
