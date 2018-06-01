@@ -30,7 +30,14 @@ published: true
             <div class="image thumbnail parbase"> 
              <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
             </div> 
+           </div>
+                   <div class="video-meta"> 
            </div> 
+          </div> </a> 
+         <script>
+  require(["scripts"], function() {
+    $.awsComponent.videoBox('#element-563893c3-c626-4a11-988f-ea554cf97284');
+  });
 	<ul>
 		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
   		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
