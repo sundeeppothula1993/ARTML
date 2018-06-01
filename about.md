@@ -10,6 +10,20 @@ published: true
   	<style>body {text-align: justify;}</style>
   	<div class="body">
   		<p>In the recent years, Machine learning algorithms created a significant impact in all the sectors: Business and Marketing, from retail to finance, Education to Healthcare etc. Data is the key to success in all these applications. As the amount of data that is generated is increasing continuously in real time, conventional methods gave limitations to use these real-time insights. Conventional Machine learning methods can only be applied to relatively small accumulated data batches which needs to be retrained periodically to improve the model. </p>
+      <h3> Amazon Web services take on Streaming Analytics & its difficulties </h3>
+      <p>In the below AWS Webinar by Forrester analyst Mike Gualtieri and Amazon Kinesis GM Roger Barga  they clearly explains about the need for Real time Analytics and discuss the prevalent trend, its business significance, and characteristics required for real time learning models.  </p>
+              <div class="videobox parbase section"> 
+         <a href="https://youtu.be/-L0WIMY_gaU"> <h3> <span itemprop="name"></span> </h3> 
+          <div id="element-563893c3-c626-4a11-988f-ea554cf97284" class="video-box video-box-full" itemscope="" itemtype="http://schema.org/VideoObject" data-video-url="https://youtu.be/-L0WIMY_gaU" data-start-time="0" data-video-name="" data-video-path="/kinesis/streaming-analytics-webinar"> 
+           <meta itemprop="duration" content="T0S" /> 
+           <meta itemprop="thumbnailUrl" content="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
+           <meta itemprop="embedURL" content="https://youtu.be/-L0WIMY_gaU" /> 
+           <div class="thumb"> 
+            <i class="play-video"></i> 
+            <div class="image thumbnail parbase"> 
+             <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
+            </div> 
+           </div> 
          <p> Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
           <p>This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
       </div>
