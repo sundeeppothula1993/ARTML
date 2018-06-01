@@ -24,7 +24,7 @@ published: true
              <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
             </div> 
            </div> 
-		<p> Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
+		<p> Adaptive real-time Machine learning is a technique that overcomes the difficulties in exsisting methods by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
           <p>This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
       </div>
     <h3>What makes ART ML unique?</h3>
