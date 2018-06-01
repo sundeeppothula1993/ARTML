@@ -17,11 +17,11 @@ published: true
           <div id="element-563893c3-c626-4a11-988f-ea554cf97284" class="video-box video-box-full" itemscope="" itemtype="http://schema.org/VideoObject" data-video-url="https://youtu.be/-L0WIMY_gaU" data-start-time="0" data-video-name="" data-video-path="/kinesis/streaming-analytics-webinar"> 
            <meta itemprop="duration" content="T0S" /> 
            <meta itemprop="thumbnailUrl" content="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
-           <meta itemprop="embedURL" content="https://youtu.be/-L0WIMY_gaU" /> 
+           <meta itemprop="embedURL" content="https://youtu.be/-L0WIMY_gaU" /> </h3>
            <div class="thumb"> 
             <i class="play-video"></i> 
             <div class="image thumbnail parbase"> 
-             <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> </h3>
+             <img alt="video-thumbnail-forrester-webinar-streaming-analytics-july2017" title="video-thumbnail-forrester-webinar-streaming-analytics-july2017" src="//d1.awsstatic.com/video-thumbs/Kinesis/video-thumbnail-forrester-webinar-streaming-analytics-july2017.413e2ef761265ee56c972e1516012a040ddf1fb7.gif" /> 
             </div> 
            </div> 
 		<p> Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
