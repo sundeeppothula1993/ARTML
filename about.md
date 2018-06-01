@@ -51,4 +51,4 @@ published: true
   	</ul>
 </div>
 <style>img {display: block;margin-left: auto;margin-right: auto;style="width: 50%; height: 50%; } </style> 
-  <img src= {{ '/assets/img/title.PNG'}}">
+<img src= "{{ '/assets/img/title.PNG'}}" >
