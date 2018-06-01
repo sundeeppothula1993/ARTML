@@ -11,7 +11,7 @@ published: true
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncatewords = 45}}{% endif %}</p>
       </li>
     {% endfor %}
   </ul>
