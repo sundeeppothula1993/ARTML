@@ -7,10 +7,10 @@ published: true
 <div class="post">
 	<h1 class="pageTitle"> </h1>
   	<h3> What is Adaptive Real time machine learning?</h3>
-  		<p>In the recent years, Machine learning algorithms created a significant impact in all the sectors: Business and Marketing, from retail to finance, Education to Healthcare etc. 
-          Data is the key to success in all these applications. As the amount of data that is generated is increasing continuously in real time, conventional methods gave limitations to use these real-time insights. Conventional Machine learning methods can only be applied to relatively small accumulated data batches which needs to be retrained periodically to improve the model. 
-          Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques. 
-          This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
+  		<p>In the recent years, Machine learning algorithms created a significant impact in all the sectors: Business and Marketing, from retail to finance, Education to Healthcare etc. </p>
+         <p>Data is the key to success in all these applications. As the amount of data that is generated is increasing continuously in real time, conventional methods gave limitations to use these real-time insights. Conventional Machine learning methods can only be applied to relatively small accumulated data batches which needs to be retrained periodically to improve the model. </p>
+         <p> Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
+          <p>This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
   	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/real_time_machine_learnin.jpg' | prepend: site.baseurl }}" >
 	<p class="intro">Long Haul is a minimal,  long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
