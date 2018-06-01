@@ -15,7 +15,7 @@ published: true
       <div class = "box">
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncate = 200}}{% endif %}</p>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncatewords = 300}}{% endif %}</p>
       </div
       </li>
         
