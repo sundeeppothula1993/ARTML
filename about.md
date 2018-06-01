@@ -41,18 +41,12 @@ published: true
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" >
   	<div class="body">
       	<p> Many of the exsisting complex real time machine learning methods only rely on Incremental learning technqiues limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-L0WIMY_gaU&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      	<p> <b> Objectives: </b> </p>
 	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+		<li> Understanding the <ahref="https://www.researchgate.net/publication/265619432_Real_Time_Data_Mining">ART-ML</a> technique </li>
+  		<li> Using the ART-ML library (soon!)</li>
+  		<li>Different applications of ART-ML</li>
+  		<li>Articles on Real time Learning</li>
   	</ul>
 </div>
 
