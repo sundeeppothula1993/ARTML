@@ -49,5 +49,5 @@ published: true
   		<li> Articles on Real time Learning</li>
   	</ul>
 </div>
-	.center {display: block; margin-left: auto;margin-right: auto; style="width: 50%; height: 50%;}
-  <img src={{ '/assets/img/title.PNG' class="center"}}" >
+<style>img {display: block;margin-left: auto;margin-right: auto;style="width: 50%; height: 50%; } </style> 
+  <img src= {{ '/assets/img/title.PNG'}}">
