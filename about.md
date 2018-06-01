@@ -11,7 +11,7 @@ published: true
   	<div class="body">
   		<p>In the recent years, Machine learning algorithms created a significant impact in all the sectors: Business and Marketing, from retail to finance, Education to Healthcare etc. Data is the key to success in all these applications. As the amount of data that is generated is increasing continuously in real time, conventional methods gave limitations to use these real-time insights. Conventional Machine learning methods can only be applied to relatively small accumulated data batches which needs to be retrained periodically to improve the model. Updating the model periodically limits the use of real-time business insights. This creates the need for Real time learning models. </p> 
       <p><b>Amazon Web services on need for Real time Analytics:</b></p>
-      <p>In the below AWS Webinar by Forrester analyst Mike Gualtieri and Amazon Kinesis GM Roger Barga  they clearly explains about the need for Real time Analytics and discuss the prevalent trend, its business significance, and characteristics required for real time learning models.  </p>
+      <p>In the below AWS Webinar by Forrester analyst Mike Gualtieri and Amazon Kinesis GM Roger Barga  they clearly explain about the need for Real-time Analytics and discuss the prevalent trend, its business significance, and characteristics required for real time learning models.  </p>
       <div class="videobox parbase section"> 
          <a href="https://youtu.be/-L0WIMY_gaU"> <h3> <span itemprop="name"></span> </h3>  
          <div id="element-563893c3-c626-4a11-988f-ea554cf97284" class="video-box video-box-full" itemscope="" itemtype="http://schema.org/VideoObject" data-video-url="https://youtu.be/-L0WIMY_gaU" data-start-time="0" data-video-name="" data-video-path="/kinesis/streaming-analytics-webinar">
@@ -33,14 +33,14 @@ published: true
   });
 </script> 
         </div> 
-		<p> As Mike Gualtieri mentioned in the above video, real time learning platform should have the agility to learn/forget from data and grow/ shrink with the features, which is lacking in all exsisting complex real time models. Adaptive real-time Machine learning is a technique that overcomes these difficulties  by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
+		<p> As Mike Gualtieri mentioned in the above video, real time learning platform should have the agility to learn/forget from data and grow/ shrink with the features, which is lacking in all existing complex real time models. Adaptive real-time Machine learning is a technique that overcomes these difficulties  by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
           <p>This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
       </div>
     <h3>What makes ART ML unique?</h3>
   	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" >
   	<div class="body">
-      	<p> Many of the exsisting complex real time machine learning methods only rely on Incremental learning technqiues limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
+      	<p> Many of the existing complex real time machine learning methods only rely on Incremental learning techniques limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
       	<p> <b> Objectives: </b> </p>
 	<ul>
 		<li> Understanding the ART-ML technique </li>
