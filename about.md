@@ -43,14 +43,12 @@ published: true
       	<p> Many of the exsisting complex real time machine learning methods only rely on Incremental learning technqiues limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
       	<p> <b> Objectives: </b> </p>
 	<ul>
-		<li> Understanding the <ahref="https://www.researchgate.net/publication/265619432_Real_Time_Data_Mining">ART-ML</a> technique </li>
+		<li> Understanding the ART-ML technique </li>
   		<li> Using the ART-ML library (soon!)</li>
-  		<li>Different applications of ART-ML</li>
-  		<li>Articles on Real time Learning</li>
+  		<li> Different applications of ART-ML</li>
+  		<li> Articles on Real time Learning</li>
   	</ul>
 </div>
-
 	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/real_time_machine_learnin.jpg' | prepend: site.baseurl }}" >
-	<p class="intro">Long Haul is a minimal,  long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
+	
