@@ -13,6 +13,7 @@ published: true
       <p><b>Amazon Web services on need for Real time Analytics:</b></p>
       <p>In the below AWS Webinar by Forrester analyst Mike Gualtieri and Amazon Kinesis GM Roger Barga  they clearly explains about the need for Real time Analytics and discuss the prevalent trend, its business significance, and characteristics required for real time learning models.  </p>
       <div class="videobox parbase section"> 
+         <video width="320" height="240" controls>
          <a href="https://youtu.be/-L0WIMY_gaU"> <h3> <span itemprop="name"></span> </h3>  
          <div id="element-563893c3-c626-4a11-988f-ea554cf97284" class="video-box video-box-full" itemscope="" itemtype="http://schema.org/VideoObject" data-video-url="https://youtu.be/-L0WIMY_gaU" data-start-time="0" data-video-name="" data-video-path="/kinesis/streaming-analytics-webinar">
            <meta itemprop="duration" content="T0S" />
