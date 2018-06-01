@@ -19,11 +19,7 @@ published: true
   	<div class="body">
       	<p> Many of the exsisting complex real time machine learning methods only rely on Incremental learning technqiues limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
       </div>
-  
-  <iframe id="ytplayer" type="text/html" width="640" height="390"
-src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
-frameborder="0"/>
-
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	<ul>
 		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
   		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
