@@ -14,7 +14,7 @@ published: true
          <p> Adaptive real-time Machine learning is a technique that overcomes this difficulty by readily upgrading the model as data is generated and giving the flexibility to deal with potential changes in data processing techniques.</p> 
           <p>This blog uncovers the potentiality of this simple yet powerful technique discussing how to use it and different use cases. </p>
       </div>
-    <h2>Features</h2>
+    <h3>Features of ART ML</h3>
   	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" >
 	<ul>
