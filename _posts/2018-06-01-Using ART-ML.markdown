@@ -44,6 +44,4 @@ where:
 -𝐵𝑖𝑗=𝐵𝑗𝑖 
 -(+) represents incremental and (-) decremental change of the basic elements. 
 
-The number of attributes can also be updated in real time (incrementally or decrementally), simply by adding corresponding rows and columns and the related basic elements to the BET table.
-
-
+The number of attributes can also be updated in real time (incrementally or decrementally), simply by adding corresponding rows and columns and the related basic elements to the BET table. This simple Basic Element Table (BET) is the key factor which differntiates ART-ML approach from all the existing complex methods. BET can learn/ Forget with data or Grow/Shrink with features. BET with the basic atomic nature can be directly used for Data exploration and modeling.
