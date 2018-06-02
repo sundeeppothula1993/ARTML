@@ -26,3 +26,6 @@ social:
    email: sundeeppothula@gmail.com
 
 google_analytics: "UA-58263416-1"
+
+plugins: 
+  - jekyll-sitemap
