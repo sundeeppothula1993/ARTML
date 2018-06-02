@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to Execute ART-ML
+title: How to Execute 
+	ART-ML
 date: 2018-06-01
 published: true
 ---
@@ -40,7 +41,7 @@ All of the equations for Data exploration or for generating models use combinati
 All above basic elements can be update in real time (incrementally or decrementally), using the following basic general real time equation.
 
 {% highlight ruby %} 
-𝐵𝑖𝑗∶=𝐵𝑖𝑗±𝐵𝑖𝑗𝑛𝑒𝑤
+		𝐵𝑖𝑗∶=𝐵𝑖𝑗±𝐵𝑖𝑗𝑛𝑒𝑤
 where: 
 - 𝐵𝑖𝑗=𝐵𝑗𝑖 
 - (+) represents incremental and (-) decremental change of the basic elements.
