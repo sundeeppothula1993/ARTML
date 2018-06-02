@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating BET in Python
-date: {}
+date: 2018-06-01
 published: true
 ---
 
