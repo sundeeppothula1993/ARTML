@@ -1,22 +1,76 @@
 ---
 layout: post
-title:  "Generating BET in Python"
-date:   2018-06-01
+title: Generating BET in Python
+date: {}
+published: true
 ---
 
-<p class="intro"><span class="dropcap">Y</span>ou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+<p class="intro"><span class="dropcap">B</span>asic element table is the key for all the steps in Adaptive real time machine learning(ART-ML) technique. Although, there is no particular data structure and process that needs to be used for generating BET, this example explains one of the methods to generate BET in an Atomic level.</p>
 
-Jekyll also offers powerful support for code snippets:
+Here, BET is stored in the form of a square Matrix (N*N) where N is number of features.  Below python code shows how BET can be generated in layman form in the most atomic level:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+def BET(df):
+    col = df.columns
+    col = col.tolist()
+    l = len(col)                                                              
+    x ={}                                   
+    for m in range(l):
+        for n in range(l):
+            x[m,n] = []  
+        
+    for i in range(l):
+        for j in range(l):
+            y=col[j]
+            z=col[i]
+            
+            count_x = len(df[col[i]])                                         # count in particular X column
+            x[i,j].append(count_x)
+            
+            sum_x = df[col[i]].sum()                                          # Sum of elemensts in y
+            x[i,j].append(sum_x)
+            
+            sum_x2 = (df[z]*df[z]).sum()                                      # Sum of elemensts in x2
+            x[i,j].append(sum_x2)
+            
+            sum_x3 = (df[col[i]]*df[col[i]]*df[col[i]]).sum()                 # Sum of elemensts in x3
+            x[i,j].append(sum_x3)
+            
+            sum_x4 = (df[col[i]]*df[col[i]]*df[col[i]]*df[col[i]]).sum()      # Sum of elemensts in x4
+            x[i,j].append(sum_x4)
+            
+            count_y = len(df[col[j]])                                         # count in particular Y column
+            x[i,j].append(count_y)
+            
+            sum_z = df[col[j]].sum()                                          # Sum of elemensts in y
+            x[i,j].append(sum_z)
+            
+            sum_z2 = (df[col[j]]*df[col[j]]).sum()                            # Sum of elemensts in y2
+            x[i,j].append(sum_z2) 
+            
+            sum_z3 = (df[col[j]]*df[col[j]]*df[col[j]]).sum()                 # Sum of elemensts in y3
+            x[i,j].append(sum_z3)
+            
+            sum_z4 = (df[col[j]]*df[col[j]]*df[col[j]]*df[col[j]]).sum()      # Sum of elemensts in y4
+            x[i,j].append(sum_z4)
+            
+            sum_yz = (df[col[i]]*df[col[j]]).sum()                            # Sum of elemensts in xy
+            x[i,j].append(sum_yz)
+            
+            sum_2yz = (df[col[i]]*df[col[j]]*df[col[i]]*df[col[j]]).sum()     # Sum of elemensts in (xy)2
+            x[i,j].append(sum_2yz)       
+            
+    z={}
+    for m in range(l):
+        z[m] = []  
+    for i in range(l):
+        for j in range(l):
+            z[i].append(x[j,i])
+    result = pd.DataFrame(z, index=col)
+    result.columns = col
+    return(result)
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+
