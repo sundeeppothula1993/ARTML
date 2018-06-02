@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating BET in Python
-date: 2018-06-01
+date: {}
 published: true
 ---
 
@@ -60,3 +60,19 @@ def BET(df):
 {% endhighlight %}
 
 After generating BET, this table can be used for Data exploration & for Modeling. To use this in real time, BET can be updated in real time using the real time equation for BET. As, BET is updated with the new Data, we can update the model in real time.
+
+<figure>
+	<img src="{{ '/assets/img/BET table example.JPG' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig.1 - BET for sample cancer dataset </figcaption>
+</figure>
+
+### Updating BET in Real-Time:
+BET has the flexibility to be modified with the new data in multiple ways as mentioned below. 
+- Incremental learning (Learn)
+- Decremental learning (Forget)
+- Attribute addition (Grow) 
+- Attribute deletion (Shrink)
+
+This gives us flexibility for on the fly attribute addition or deletion to update the models. Check GITHUB for python code of each of these functions.
+
+
