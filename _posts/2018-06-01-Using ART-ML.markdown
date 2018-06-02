@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Execute ART-ML
-date: 2018-06-01
+date: {}
 published: true
 ---
 
@@ -14,13 +14,13 @@ In Adaptive real time machine learning method, data is summarized in the Basic E
 </figure>
 
 The tasks assigned to each of the four real time components are as follows: 
-- Learner: updates (incrementally or decrementally) the Basic Elements Table utilizing the data in real time. 
-- Explorer: does univariate and bivariate statistical data analysis using the Basic Elements Table in real time. 
-- Modeler: constructs models using the Basic Elements Table in real time. 
-- Predictor: uses the models for prediction in real time.
+- **Learner**: updates (incrementally or decrementally) the Basic Elements Table utilizing the data in real time. 
+- **Explorer**: does univariate and bivariate statistical data analysis using the Basic Elements Table in real time. 
+- **Modeler**: constructs models using the Basic Elements Table in real time. 
+- **Predictor**: uses the models for prediction in real time.
 
 
-**Basic Elements Table:**
+**### Basic Elements Table:**
 
 The Basic Elements Table building block includes two attributes, 𝑋𝑖, 𝑋𝑗 and one or more basic elements 𝐵𝑖𝑗:
 <figure>
@@ -37,7 +37,7 @@ All of the equations for Data exploration or for generating models use combinati
 
 All above basic elements can be update in real time (incrementally or decrementally), using the following basic general real time equation.
 
-									𝐵𝑖𝑗∶=𝐵𝑖𝑗±𝐵𝑖𝑗𝑛𝑒𝑤
+						𝐵𝑖𝑗∶=𝐵𝑖𝑗±𝐵𝑖𝑗𝑛𝑒𝑤
 where: 
 - 𝐵𝑖𝑗=𝐵𝑗𝑖 
 - (+) represents incremental and (-) decremental change of the basic elements.
