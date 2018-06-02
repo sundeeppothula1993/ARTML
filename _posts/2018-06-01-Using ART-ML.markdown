@@ -1,7 +1,6 @@
 ---
 layout: post
-title: How to Execute 
-	ART-ML
+title: How to Execute ART-ML
 date: 2018-06-01
 published: true
 ---
