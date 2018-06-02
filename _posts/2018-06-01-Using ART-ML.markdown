@@ -1,30 +1,49 @@
 ---
 layout: post
-title:  "How to Execute ART-ML"
-date:   2018-06-01
+title: How to Execute ART-ML
+date: {}
+published: true
 ---
 
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+<p class="intro"><span class="dropcap">C</span>onventionally, Machine Learning algorithms interact directly with the whole dataset. Even in the Real time learning models it should somehow accommodate the impact of new data, changes in attributes (variables), etc. to improve the existing models. In Adaptive real time machine learning method, as shown in Figure, the modeling process is split into four separate components: Learner, Explorer, Modeler and Predictor. The data is summarized in the Basic Elements Table (BET) which is a relatively small table. BET summarizes the whole dataset and can be updated in real-time by only using the newly generated data.</p>
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
 
 <figure>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
+	<img src="{{ '/assets/img/BET.PNG' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - Adaptive Real Time Learning Machine (ART-ML) </figcaption>
 </figure>
 
-{% highlight html %}
+The tasks assigned to each of the four real time components are as follows: 
+1.Learner: updates (incrementally or decrementally) the Basic Elements Table utilizing the data in real time. 
+2.Explorer: does univariate and bivariate statistical data analysis using the Basic Elements Table in real time. 
+3.Modeler: constructs models using the Basic Elements Table in real time. 
+4.Predictor: uses the models for prediction in real time. 
+
+**Basic Elements Table:**
+
+The Basic Elements Table building block includes two attributes, 𝑋𝑖, 𝑋𝑗 and one or more basic elements 𝐵𝑖𝑗:
 <figure>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
+	<img src="{{ '/assets/img/Table.JPG' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig2. - Building block of the Basic Elements Table (BET) </figcaption>
 </figure>
-{% endhighlight %}
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
+All of the equations for Data exploration or for generating models use combination of Basic elements like Σ𝑋𝑖 -Σ𝑋𝑖𝑋𝑗 -Σ𝑋𝑖2 - Σ(𝑋𝑖𝑋𝑗)2 etc. Hence, 𝐵𝑖𝑗 can consist of one or more of following basic elements which can be used for calculations of all real time equations:  
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
+- 𝑁𝑖𝑗 : Total number of joint occurrence of two attributes 
+- Σ𝑋𝑖 and Σ𝑋𝑗 : Sum of data 
+- Σ𝑋𝑖𝑋𝑗 : Sum of multiplication 
+- Σ𝑋𝑖2 and Σ𝑋𝑗2 : Sum of squared data 
+- Σ(𝑋𝑖𝑋𝑗)2 : Sum of squared multiplication
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
+All above basic elements can be update in real time (incrementally or decrementally), using the following basic general real time equation.
 
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+𝐵𝑖𝑗∶=𝐵𝑖𝑗±𝐵𝑖𝑗𝑛𝑒𝑤
+
+where: 
+-𝐵𝑖𝑗=𝐵𝑗𝑖 
+-(+) represents incremental and (-) decremental change of the basic elements. 
+
+The number of attributes can also be updated in real time (incrementally or decrementally), simply by adding corresponding rows and columns and the related basic elements to the BET table.
+
+
