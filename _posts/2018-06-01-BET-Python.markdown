@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Generating BET in Python
-date: 2018-06-01
+date: {}
 published: true
 ---
 
 <style>body {text-align: justify;}</style>
 <div class="body">
-<p class="intro"><span class="dropcap">B</span>asic element table is the key for all the steps in Adaptive real time machine learning(ART-ML) technique. Although, there is no particular data structure and process that needs to be used for generating BET, this example explains one of the methods to generate BET in an Atomic level.</p>
+<p class="intro"><span class="dropcap">B</span>asic element table is the key for all the steps in Adaptive real time machine learning(ART-ML) technique. Although, there is no particular data structure and process that needs to be used for generating BET, this example explains one of the methods to generate BET in an Atomic level.</p> </div>
 
-Here, BET is stored in the form of a square Matrix (N*N) where N is number of features.Below python code shows how BET can be generated in layman form in the most atomic level: </div>
+Here, BET is stored in the form of a square Matrix (N*N) where N is number of features.Below python code shows how BET can be generated in layman form in the most atomic level: 
 
 {% highlight ruby %}
 def BET(df):
