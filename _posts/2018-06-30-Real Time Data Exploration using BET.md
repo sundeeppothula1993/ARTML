@@ -8,6 +8,6 @@ Real time Data Exploration can be catogarized into two types:
 	1. Real time Univariate Data Exploration
 	2. Real time Bivariate Data Exploration
 
-Real time Univariate Data Exploration:
+### Real time Univariate Data Exploration:
 
 Univariate analysis explores variables (attributes) one by one by summarizing each attribute using statistical techniques. 
