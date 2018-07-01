@@ -13,6 +13,9 @@ Real time Data Exploration can be catogarized into two types:
 
 Univariate analysis explores variables (attributes) one by one by summarizing each attribute using statistical techniques. 
 
-![Univariate_table.PNG]({{site.baseurl}}/_posts/Univariate_table.PNG)
+<figure>
+	<img src="{{ '/assets/img/Univariate_table.PNG' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - Univariate Statistics (ART-ML) </figcaption>
+</figure>
 
 
