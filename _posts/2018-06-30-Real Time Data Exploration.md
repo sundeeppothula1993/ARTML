@@ -28,7 +28,7 @@ Bivariate data analysis is the simultaneous analysis of two attributes (variable
 
 <figure>
 	<img src="{{ '/assets/img/Bivariate.PNG' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - Bivariate Statistics (ART-ML) </figcaption>
+	<figcaption>Fig2. - Bivariate Statistics (ART-ML) </figcaption>
 </figure>
 
 
