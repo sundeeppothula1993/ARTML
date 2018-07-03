@@ -25,3 +25,9 @@ Minimum and Maximum can be updated in real time incrementally but not decrementa
 **Real time Bivariate Data Exploration:**
 
 Bivariate data analysis is the simultaneous analysis of two attributes (variables). It explores the concept of relationship between two attributes, whether there is an association and the strength of this association, or whether there are differences between two attributes and the significance of these differences.
+
+<figure>
+	<img src="{{ '/assets/img/Bivariate.PNG' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - Bivariate Statistics (ART-ML) </figcaption>
+</figure>
+
