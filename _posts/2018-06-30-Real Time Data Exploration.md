@@ -18,4 +18,10 @@ Univariate analysis explores variables (attributes) one by one by summarizing ea
 	<figcaption>Fig1. - Univariate Statistics (ART-ML) </figcaption>
 </figure>
 
+Mode, median cannot be transformed to real time. However,they can be approximated by having the discretized (binned) version of a numerical attribute. Eg: When numerical attributes are discretized in bins, the mode is defined as the bin where most observations lie.
 
+Minimum and Maximum can be updated in real time incrementally but not decrementally. It means if we lose an existing maximum or minimum value we would need to consider all historical data to replace them. One practical option is using the lower bound (minimum) and upper bound (maximum) of the discretized version of a numerical attribute.
+
+**Real time Bivariate Data Exploration:**
+
+Bivariate data analysis is the simultaneous analysis of two attributes (variables). It explores the concept of relationship between two attributes, whether there is an association and the strength of this association, or whether there are differences between two attributes and the significance of these differences.
