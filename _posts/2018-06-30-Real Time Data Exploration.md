@@ -31,6 +31,7 @@ Bivariate data analysis is the simultaneous analysis of two attributes (variable
 	<figcaption>Fig1. - Bivariate Statistics (ART-ML) </figcaption>
 </figure>
 
+
 Many of the bivariate statistics like Z test, T test, Anova etc. rely on the conditional univariate statistics.These define univariate statistics for an attribute 𝑋𝑖 given a binary attribute 𝑋𝑗 when 𝑋𝑗=1. 
-All the conditional univariate statistics can be calculated by the Real time equations using Basic Element Table (BET).
+All the conditional univariate statistics can be calculated by the Real time equations using Basic Element Table (BET). Check GITHUB for python code of each of these functions.
 
