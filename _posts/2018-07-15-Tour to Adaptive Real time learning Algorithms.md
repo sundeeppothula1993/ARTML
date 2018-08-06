@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A tour to Adaptive Real time learning Algorithms
+title: Adaptive Real time learning Algorithms
 date: {}
 published: true
 ---
