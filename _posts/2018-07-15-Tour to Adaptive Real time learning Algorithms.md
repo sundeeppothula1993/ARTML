@@ -5,8 +5,6 @@ date: {}
 published: true
 ---
 
-
-
 In many of the real life cases ongoing training is needed in machine learning models. This continues training of model in real time helps to give more useful Business insights and make better predictions. 
 
 Adaptive Real time machine Learning (ART-ML) can update models in real time with the incoming streaming data and can offer a real competitive advantage for organizations by making predictions better every time.
