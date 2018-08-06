@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A tour to Adaptive Real time learning Algorithms
-date: 2018-06-10
+date: {}
 published: true
 ---
 
@@ -16,7 +16,7 @@ In this post, we take a tour of the Adaptive Real time machine learning algorith
 
 ART-ML technique can be applied for all the linear regression and classification algorithms like MLR, Naïve Bayesian, LDA, PCA etc.,
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig1. - Real Time learning Models (ART-ML) </figcaption>
 </figure>
@@ -25,13 +25,13 @@ ART-ML technique can be applied for all the linear regression and classification
 ### Multiple Linear Regression:
 MLR is based on ordinary least squares (OLS), the regression model is fit such that the sum-of-squares of differences of observed and predicted values (error) is minimized. 
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/MLR1.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
 Coefficients for the linear equation can be found from the covariance matrix calculated from BET.
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/MLR2.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
@@ -39,7 +39,7 @@ Coefficients for the linear equation can be found from the covariance matrix cal
 
 The Naïve Bayesian classifier is based on Bayes’ theorem with independence assumptions between attributes. 
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/NB1.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
@@ -49,7 +49,7 @@ In the real time version of Bayesian classifiers, we calculate the likelihood an
 
 Support Vector Machine (SVM) performs classification by finding the hyperplane that maximizes the margin between the two classes. Our implementation of the Real Time LSVM is based on Fung and Mangasarian solution.
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/LSVM1.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
@@ -58,14 +58,14 @@ Typically, v is chosen by means of a tuning (validating) set. And the two main c
 ### Linear Discriminant Analysis:
 LDA is based upon the concept of searching for a linear combination of attributes that best separates two classes (0 and 1) of a binary attribute. To capture the notion of separability, Fisher defined the following score function which reduces the means between the groups and increases variability between two groups.
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/LDA1.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
 New data points to class 1 can be classified using the equation,
 
 
-<figure>****
+<figure>
 	<img src="{{ '/assets/img/LDA2.png' | prepend: site.baseurl }}" alt=""> 
 </figure>
 
@@ -77,10 +77,4 @@ Principal component analysis (PCA) is a classical statistical method. This linea
 
 This post gives overview of basic algorithms that can be implemented in Real time using ART-ML library. Check the ART-  ML documentation for detailed description of these algorithms in real time. 
 
-Although, ART-Ml models are linear when used correctly they give better predictions and since we are training the models in real time with the continues streams of data they get better evert time. The real power of ART-ML lies in applying these algorithms in real world cases combined with the feature engineering. 
-
-
-
-
-
-
+Although, ART-Ml models are linear when used correctly they give better predictions and since we are training the models in real time with the continues streams of data they get better evert time. The real power of ART-ML lies in applying these algorithms in real world cases combined with the feature engineering.
