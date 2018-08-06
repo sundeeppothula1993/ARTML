@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adaptive Real time learning Algorithms
-date: {}
+date: 2018-06-15
 published: true
 ---
 
