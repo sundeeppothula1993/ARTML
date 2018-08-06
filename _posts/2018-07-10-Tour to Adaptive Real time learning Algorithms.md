@@ -6,7 +6,6 @@ published: true
 ---
 
 
-## A tour to Adaptive Real time learning Algorithms
 
 In many of the real life cases ongoing training is needed in machine learning models. This continues training of model in real time helps to give more useful Business insights and make better predictions. 
 
@@ -17,7 +16,7 @@ In this post, we take a tour of the Adaptive Real time machine learning algorith
 ART-ML technique can be applied for all the linear regression and classification algorithms like MLR, Naïve Bayesian, LDA, PCA etc.,
 
 <figure>
-	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/artml_algorithms.PNG' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig1. - Real Time learning Models (ART-ML) </figcaption>
 </figure>
 
