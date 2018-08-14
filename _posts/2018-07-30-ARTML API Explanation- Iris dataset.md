@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ARTML API Explanation- Iris dataset
-date: 2018-07-30
+date: {}
 published: true
 ---
 
