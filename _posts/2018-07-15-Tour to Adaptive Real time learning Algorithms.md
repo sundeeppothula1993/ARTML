@@ -56,7 +56,7 @@ New data points to class 1 can be classified using the equation,
 </figure>
 ART-ML library offers functions for all these things and the LDA model can be updated in real time using BET. This simple, mathematically robust model often produces accuracies as good as more complex methods for classification.
 
-### Principal Components Analysis
+#### Principal Components Analysis
 Principal component analysis (PCA) is a classical statistical method. This linear transform has been widely used in data analysis and data compression. The principal components (Eigenvectors) for a dataset can directly be extracted from the covariance matrix. By sorting the eigenvectors in the order of descending eigenvalues, we can find directions in which the data has the most significant amounts of its variation. Real time PCA can be done by updating BET which further updates eigen values and eigen vectors.
 
 This post gives overview of basic algorithms that can be implemented in Real time using ART-ML library. Check the ART-  ML documentation for detailed description of these algorithms in real time. 
