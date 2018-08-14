@@ -4,10 +4,10 @@ published: true
 
 ART-ML library with its simple architecture can update the models in real time using the continuous streams of Data. Updating the model in real time has huge potential in many of the real world scenarios can impact Businesses. Many of the existing complex real time machine learning methods only rely on Incremental learning techniques limiting the true potential of Real time learning (decremental learning, Parallel processing, Real time Feature selection and deletion etc.,). ART ML method can enhance the real time learning by giving all kind of flexibilities for incremental and decremental learning. This blog post explains how ART-ML library can be used for real time learning and its different functions. 
 
-Lastly, if you want to skip all this and just see all the code, feel free to give it a look on Github. 
+Lastly, if you want to skip all this and just see all the code, feel free to give it a look on  [Github](https://github.com/AdaptiveMachineLearning/artml/blob/master/ARTML_Iris_dataset_example.ipynb "Github")
 
 #### ART-ML library structure:
-This is the basic API reference for artml library. For more details and for class & function reference please refer to Github source code.
+This is the basic API reference for artml library. For more details and for class & function reference please refer to Github [source-code](https://github.com/AdaptiveMachineLearning/artml/tree/master/artml "source-code")
 
 <figure>
 	<img src="{{ '/assets/img/api_structure.PNG' | prepend: site.baseurl }}" alt=""> 
