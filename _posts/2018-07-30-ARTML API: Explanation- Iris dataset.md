@@ -1,4 +1,7 @@
 ---
+layout: post
+title: ARTML API: Explanation- Iris dataset
+date: {}
 published: true
 ---
 
