@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ART-ML library with its simple architecture can update the models in real time using the continuous streams of Data. Updating the model in real time has huge potential in many of the real world scenarios can impact Businesses. Many of the existing complex real time machine learning methods only rely on Incremental learning techniques limiting the true potential of Real time learning (decremental learning, Parallel processing, Real time Feature selection and deletion etc.,). ART ML method can enhance the real time learning by giving all kind of flexibilities for incremental and decremental learning. This blog post explains how ART-ML library can be used for real time learning and its different functions. 
@@ -107,4 +107,3 @@ Use SVM_Reg_fit for SVM regression and SVM_fit for SVM classification.
 </figure>
 
 That's it! Thanks for reading. In further posts real world datasets and case studies are explored where ART-ML can significantly impact traditional approaches and generate insights that have true Business value.
-
