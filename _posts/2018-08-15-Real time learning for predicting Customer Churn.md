@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Real time learning for predicting Customer Churn
-date: 2018-08-15
+date: {}
 published: true
 ---
 Churning (or) customers leaving a company for the competition is one of the most important challenges faced by most of the enterprises. Businesses in the consumer market have to deal with churn else it will directly impacts on company revenue. By effectively predicting the customers who will churn, companies can take necessary actions in order to retain customers.
@@ -23,7 +23,7 @@ In this context, models built earlier in the past can quickly or gradually get o
 
 ARTML with its power to build the models in real time and with its capacity to accomodate huge amounts of data patterns can help solve this problem. This can also find the best features that impacts the model in real time and can rebuild the model accordingly on the fly by deleting and adding the features for making predictions. Also, they can respond to business events the moment they happen, rather than acting on them retrospectively. ARTML also has the power to run on Distributed processing systems to improve processing speeds and to accomodate huge data. By using artml predictive analytics, companies can differentiate from their competitors by taking real time decisions.
 
-Let us see how we can use artml for predicting Customer Churn in real time. Code for this real time pipeline is provided in this [Jupyter notebook](https://github.com/AdaptiveMachineLearning/artml/blob/master/ARTML_Iris_dataset_example.ipynb "Github")
+Let us see how we can use artml for predicting Customer Churn in real time. Code for this real time pipeline is provided in this [Jupyter notebook](https://github.com/AdaptiveMachineLearning/artml/blob/master/examples/artml_churn_prediction.ipynb)
 
 <figure>
 	<img src="{{ '/assets/img/churn_artml.png' | prepend: site.baseurl }}" alt=""> 
@@ -48,7 +48,7 @@ Univariate & Bivariate statistics for the data can be calculated in realtime. Al
 
 ### Modeling
 
-Linear discriminant analysis (LDA model) which gives good accuracies in most of the cases is chosen for making predictions about the Customer churn detections. LDA Model is imported from artml library and trained with the data.
+Linear discriminant analysis (LDA model) which gives good accuracies in most of the cases is chosen for making predictions about the Customer churn detections. LDA Model is imported from artml library and trained with the data. [Code] (https://github.com/AdaptiveMachineLearning/artml/blob/master/examples/artml_churn_prediction.ipynb)
 
 In most of the cases customer data is very huge and not all features can be used for making churn predictions. In all the traditional ML approaches feature selection is done when the model is initially built combined with the domain knowledge. But as time progresses there might be some new variables which are significant for churn prediction. The reason is that churn is a temporal effect and the factors contributing to churn are usually in transient states. What leads a customer to consider leaving today might be different tomorrow, and it certainly will be different six months from now. Therefore, features in the model needs to be updated in realtime.
 
