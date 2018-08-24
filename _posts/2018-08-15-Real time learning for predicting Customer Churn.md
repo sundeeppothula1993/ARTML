@@ -74,7 +74,7 @@ Use learn, forget, grow, delete and feature_selection functions from artml libra
 #### Discussion
 All the steps mentioned above can be automated in an pipeline which makes the process self sustaining. This mentioned framework is appied only on a sample dataset. We look foward to apply this in real scenario on a Big data. The model and tasks can be built even better for each specific Business case making it more powerful. Contact us for any Industrial consultations.
 
-#### References
+#### References - 
 1. [SIX PREDICTIONS FOR REAL-TIME ANALYTICS IN 2018](http://www.b2b.com/six-predictions-for-real-time-analytics-in-2018)
 2. [Analyzing Customer Churn using Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/studio/azure-ml-customer-churn-scenario#conclusion)
 3. [Architecture of a Churn Prediction System Based on Stream Mining](https://www.researchgate.net/publication/279133320_The_Architecture_of_a_Churn_Prediction_System_Based_on_Stream_Mining)
