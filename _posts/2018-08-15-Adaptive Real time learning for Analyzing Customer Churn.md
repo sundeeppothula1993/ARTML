@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adaptive Real time learning for Analyzing Customer Churn
-date: 2018-08-15
+date: {}
 published: true
 ---
 Churning (or) customers leaving a company for the competition is one of the most important challenges faced by most of the enterprises. Businesses in the consumer market have to deal with churn else it will directly impacts on company revenue. By effectively predicting the customers who will churn, companies can take necessary actions in order to retain customers.
@@ -80,5 +80,3 @@ All the steps mentioned above can be automated in an pipeline which makes the pr
 3. [Architecture of a Churn Prediction System Based on Stream Mining](https://www.researchgate.net/publication/279133320_The_Architecture_of_a_Churn_Prediction_System_Based_on_Stream_Mining)
 4. [predict customer churn in every interaction](http://www.ibmbigdatahub.com/blog/how-predict-customer-churn-every-interaction)
 5. [Stream Analytics for Churn Prediction for Operators](https://www.ericsson.com/research-blog/proof-concept-stream-analytics-churn-prediction-operators/)
-
-
