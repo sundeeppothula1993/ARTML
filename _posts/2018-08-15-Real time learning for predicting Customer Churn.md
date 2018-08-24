@@ -34,7 +34,7 @@ Let us see how we can use artml for predicting Customer Churn in real time. Code
 
 Customer Data gathered in real time can be preprocessed and feature engineering can be performed as required. Suppose if the dataset is having high dimensional features then even PCA can be applied in real time (use PCA function in artml library).
 
-For this blog post example, a sample customer churn dataset is gathered from [IBM_repository.] (https://www.ibm.com/communities/analytics/watson-analytics-blog/predictive-insights-in-the-telco-customer-churn-data-set/)
+For this blog post example, a sample customer churn dataset is gathered from [IBM_repository](https://www.ibm.com/communities/analytics/watson-analytics-blog/predictive-insights-in-the-telco-customer-churn-data-set/)
 
 ### Data Exploration
 
