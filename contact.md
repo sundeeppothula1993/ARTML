@@ -4,7 +4,7 @@ title: Contact ART ML
 published: true
 ---
 
-## About me
+### About me
 <figure>
 	<img src="{{ '/assets/img/Dp.png' | prepend: site.baseurl }}" alt="" align="center" width="250"/> 
 </figure>    
@@ -13,7 +13,7 @@ I am Graduate student in Industrial Engineering with Data Science emphasis at Un
 
 Happy Learning! <br/>
 
-### Details
+#### Details
 <a href="https://www.linkedin.com/in/sundeeppothula/">Sundeep Pothula</a> <br/>
 MEng – Industrial Engineering <br/>
 University of Toronto <br/>
