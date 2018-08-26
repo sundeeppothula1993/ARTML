@@ -4,9 +4,7 @@ title: Contact ART ML
 published: true
 ---
 
-<div id="contact">
-  <h1 class="pageTitle">Contact Me</h1>
-  <div class="contactContent">
+
 <figure>
 	<img src="{{ '/assets/img/Dp.png' | prepend: site.baseurl }}" alt=""> 
 </figure>    
