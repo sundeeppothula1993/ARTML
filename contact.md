@@ -4,7 +4,6 @@ title: Contact ART ML
 published: true
 ---
 
-#### About me
 
 <p align="center">
 	<img src="{{ '/assets/img/Dp.png' | prepend: site.baseurl }}" alt=""  width="250"/>  
