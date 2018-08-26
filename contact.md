@@ -13,6 +13,7 @@ I am Graduate student in Industrial Engineering with Data Science emphasis at Un
 
 Happy Learning! <br/>
 
+### Details
 <a href="https://www.linkedin.com/in/sundeeppothula/">Sundeep Pothula</a> <br/>
 MEng – Industrial Engineering <br/>
 University of Toronto <br/>
