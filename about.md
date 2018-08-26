@@ -40,7 +40,7 @@ published: true
   	<style>img {display: block;margin-left: auto;margin-right: auto;} </style>
 	<img src="{{ '/assets/img/Artmalfeatures.PNG' | prepend: site.baseurl }}" >
   	<div class="body">
-      	<p> Many of the existing complex real time machine learning methods only rely on Incremental learning techniques limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. </p>
+      	<p> Many of the existing complex real time machine learning methods only rely on Incremental learning techniques limiting the true potential of Real time learning. ART ML method with all the above mentioned features can enhance the real time learning by giving all kind of flexibilities. <br/> Future is about Real learning! </p>
       	<p> <b> Objectives: </b> </p>
 	<ul>
 		<li> Understanding the ART-ML technique </li>
