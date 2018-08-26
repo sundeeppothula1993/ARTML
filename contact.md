@@ -7,5 +7,19 @@ published: true
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p>If you have questions about the ART ML feel free to <a href="mailto:sundeeppothula@gmail.com">email </a> or create an issue on <a href="https://github.com/AdaptiveMachineLearning/artml">GitHub</a>. Happy Learning!</p>
+    
+    ![]({{site.baseurl}}//Dp.png)![Dp.png]({{site.baseurl}}/Dp.png)
+
+    
+    <p>I am Graduate student in Industrial Engineering with Data Science emphasis at University of Toronto. Currently exploring Real-time Learning solutions for different Business problems. Any questions? Shoot me an email at sundeeppothula@gmail.com and I shall get back to you asap! Also, we are looking to expand the artml team, contact me if you are interested.
+
+Happy Learning!
+
+<a href="https://www.linkedin.com/in/sundeeppothula/">Sundeep Pothula</a> 
+MEng – Industrial Engineering
+University of Toronto
+Gmail : sundeeppothula@gmail.com
+
+</p>
+    
 
