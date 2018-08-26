@@ -8,9 +8,7 @@ published: true
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
     
-    ![]({{site.baseurl}}//Dp.png)![Dp.png]({{site.baseurl}}/Dp.png)
 
-    
     <p>I am Graduate student in Industrial Engineering with Data Science emphasis at University of Toronto. Currently exploring Real-time Learning solutions for different Business problems. Any questions? Shoot me an email at sundeeppothula@gmail.com and I shall get back to you asap! Also, we are looking to expand the artml team, contact me if you are interested.
 
 Happy Learning!
