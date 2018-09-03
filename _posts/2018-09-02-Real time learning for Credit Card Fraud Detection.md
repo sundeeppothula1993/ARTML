@@ -1,5 +1,5 @@
 ---
-published: True
+published: true
 ---
 Credit card fraud is a term for theft or fraud committed using a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. Although they only correspond to almost 0.1% of all transactions, these frauds result in huge financial losses (It was estimated as approx. $0.07 loss for every $100 of transaction). Currently all the banks are using different Machine learning pipelines to detect these fraudulent transactions. However, it is identified that even most sophisticated methods are unable to identify many of the false transactions. 
 
@@ -63,7 +63,7 @@ Above Confusion matrix for the model shows that still there are 30 cases where t
 Above precision recall threshold curve shows that we can achieve a maximum recall of about 75-77% by maintain precision to be around 77-78%. This implies that we can predict almost 75-77% fraud transactions out of all frauds. And out of the predicted fraud cases almost 77-78% of transactions will be real frauds. Also, the models AUC (Area under curve) is found to be 0.89 which shows the predictive power of the model.
 
 <figure>
-	<img src="{{ '/assets/img/precison_recall_credit.PNG' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/auc_credit.PNG' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig4. - Credit Card Fraud Detection - ROC curve</figcaption>
 </figure>
 
@@ -80,9 +80,6 @@ All the steps mentioned above can be automated in a pipeline which makes the pro
 ### References -
 
 1. [Credit card fraud](https://en.wikipedia.org/wiki/Credit_card_fraud#Skimming) 
-
 2. [Using ML to Improve Fraud Detection in Real Time](https://dzone.com/articles/how-machine-learning-can-improve-fraud-detection-i)
-
 3. [Stream Processing – What Is It and Who Needs It](https://www.datasciencecentral.com/profiles/blogs/stream-processing-what-is-it-and-who-needs-it)
-
 4. [Kaggle Data - Credit card fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud/kernels)
