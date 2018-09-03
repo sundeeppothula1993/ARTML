@@ -51,3 +51,6 @@ published: true
 </div>
 <style>img {display: block;margin-left: auto;margin-right: auto;style="width: 50%; height: 50%; } </style> 
 <img src= "{{ '/assets/img/title.PNG'}}" >
+<p align="center">
+"Hype is about deep learning but future is Deep with Real learning"
+</p>
