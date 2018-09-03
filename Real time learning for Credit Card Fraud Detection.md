@@ -18,7 +18,7 @@ Let us see how we can use artml for predicting fraud detections in real time. Co
 ### Data preparation
 
 Labelled Card transactions data gathered in real time can be preprocessed and feature engineering can be performed as required. Suppose if the dataset is having high dimensional features then even PCA can be applied in real time (use PCA function in artml library).
-For this blog post example, Credit Card Fraud Detection dataset from the [Kaggle ] (https://www.kaggle.com/mlg-ulb/creditcardfraud)is used. (In the jupyter notebook explanation Two Credit Card Fraud Detection datasets are used for better explaining the artml library)
+For this blog post example, Credit Card Fraud Detection dataset from the [Kaggle ](https://www.kaggle.com/mlg-ulb/creditcardfraud)is used. (In the jupyter notebook explanation Two Credit Card Fraud Detection datasets are used for better explaining the artml library)
 
 ### Data Exploration
 
@@ -79,10 +79,10 @@ All the steps mentioned above can be automated in a pipeline which makes the pro
 
 ### References -
 
-1. [Credit card fraud] (https://en.wikipedia.org/wiki/Credit_card_fraud#Skimming) 
+1. [Credit card fraud](https://en.wikipedia.org/wiki/Credit_card_fraud#Skimming) 
 
-2. [Using ML to Improve Fraud Detection in Real Time] (https://dzone.com/articles/how-machine-learning-can-improve-fraud-detection-i)
+2. [Using ML to Improve Fraud Detection in Real Time](https://dzone.com/articles/how-machine-learning-can-improve-fraud-detection-i)
 
-3. [Stream Processing – What Is It and Who Needs It] (https://www.datasciencecentral.com/profiles/blogs/stream-processing-what-is-it-and-who-needs-it)
+3. [Stream Processing – What Is It and Who Needs It](https://www.datasciencecentral.com/profiles/blogs/stream-processing-what-is-it-and-who-needs-it)
 
-4. [Kaggle Data - Credit card fraud Detection] (https://www.kaggle.com/mlg-ulb/creditcardfraud/kernels)
+4. [Kaggle Data - Credit card fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud/kernels)
