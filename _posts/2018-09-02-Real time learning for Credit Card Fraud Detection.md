@@ -6,10 +6,9 @@ Credit card fraud is a term for theft or fraud committed using a payment card, s
 <p align="center">
 	<img src="{{ '/assets/img/banner_credit.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
-
 One of the main reason for this misclassification is because of the change in fraudulent behavior from time to time. This shows that the past data on which the models are built are not effective for predicting the current frauds. All the existing Machine learning pipelines involves training in batch modes on sets of data, but as the fraud behavior changes in real time they reduce the predictability power of models. Also, it is necessary for the models to have the flexibility to delete the effects of very old transaction data. All these emphasizes the need for ongoing training of machine learning models and the real learning models. 
 
-### ARTML for Credit Card Fraud Detection
+### ARTML for Fraud detection
 
 
 Artml - Simple yet most powerful real time learning technique can be used in detecting frauds to minimize the misclassifications. With its capacity to build models in real time and also with the power of real time feature selection and model rebuilding it can help decrease the fraud prediction misclassifications. Using artml we can train the models as we get the freshest labelled data and hence incorporate the real time behavior of the fraudulent.
