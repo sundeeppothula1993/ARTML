@@ -4,7 +4,7 @@ published: true
 Credit card fraud is a term for theft or fraud committed using a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. Although they only correspond to almost 0.1% of all transactions, these frauds result in huge financial losses (It was estimated as approx. $0.07 loss for every $100 of transaction). Currently all the banks are using different Machine learning pipelines to detect these fraudulent transactions. However, it is identified that even most sophisticated methods are unable to identify many of the false transactions. 
 
 <p align="center">
-	<img src="{{ '/assets/img/banner_credit.PNG' | prepend: site.baseurl }}" alt=""  width="400"/> 
+	<img src="{{ '/assets/img/banner_credit.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
 
 One of the main reason for this misclassification is because of the change in fraudulent behavior from time to time. This shows that the past data on which the models are built are not effective for predicting the current frauds. All the existing Machine learning pipelines involves training in batch modes on sets of data, but as the fraud behavior changes in real time they reduce the predictability power of models. Also, it is necessary for the models to have the flexibility to delete the effects of very old transaction data. All these emphasizes the need for ongoing training of machine learning models and the real learning models. 
