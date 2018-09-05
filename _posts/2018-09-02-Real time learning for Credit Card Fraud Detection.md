@@ -63,7 +63,7 @@ Above precision recall threshold curve shows that we can achieve a maximum recal
 
 <figure>
 	<img src="{{ '/assets/img/auc_credit.PNG' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig4. - Credit Card Fraud Detection - ROC curve</figcaption>
+	<figcaption>Fig4. - Credit Card Fraud Detection - Gain Chart</figcaption>
 </figure>
 
 The model performance can be further improved when new features are created with feature engineering techniques combined with domain knowledge.
