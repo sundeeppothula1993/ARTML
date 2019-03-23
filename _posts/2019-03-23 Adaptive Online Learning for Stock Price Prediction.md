@@ -1,9 +1,6 @@
 ---
-published: false
+published: true
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
 Stock price prediction is one of the significant and most difficult tasks in the world of finance. Most traders rely on technical, fundamental & quantitative analysis for making predictions or generating price signals. The dependence of the Stock market on many factors including the unquantifiable human emotions makes the stock prices highly volatile and challenging to predict. 
 With the advancement of Machine learning in many Industries, its ripple effect is also observed in the finance Industry and for the price predictions. Although many people argue that the prices are random walk and no patterns can be found, contrary to this there are strong arguments for the seasonality of the prices and patterns in the stock data. But here comes the main challenge, since stock prices are generated every second there can always be a drift in the data distribution making past data and models obsolete for generating current predictions. 
@@ -48,5 +45,3 @@ https://www.investopedia.com/terms/s/sharperatio.asp
 https://www.investopedia.com/terms/c/cagr.asp
 http://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
 https://www.researchgate.net/publication/309492895_Forecasting_to_Classification_Predicting_the_direction_of_stock_market_price_using_Xtreme_Gradient_Boosting
-
-
