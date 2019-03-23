@@ -1001,7 +1001,8 @@ POST LIST STYLING
     width: 60px; 
 	text-align:justify;}
   .posts li a {
-    text-decoration: none; }
+    text-decoration: none; 
+	text-align:justify;}
     .posts li a:hover {
       text-decoration: underline;
 	  text-align:justify;}
@@ -1009,7 +1010,8 @@ POST LIST STYLING
     color: gray;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: .8em; }
+    font-size: .8em;
+	text-align:justify;}
   .posts li h3 {
     margin: 0 0 .5em; }
 
@@ -1135,9 +1137,9 @@ POST NAV STYLING
     width: 50%; }
   .postNav .prev {
     float: left;
-    text-align: left; }
+    text-align:justify; }
   .postNav .next {
-    text-align: right;
+    text-align:justify;;
     float: right; }
   /***************
 FOOTER STYLES
