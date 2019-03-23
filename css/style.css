@@ -998,11 +998,13 @@ POST LIST STYLING
     left: 0;
     background: #e6e6e6;
     height: 2px;
-    width: 60px; }
+    width: 60px; 
+	text-align:justify;}
   .posts li a {
     text-decoration: none; }
     .posts li a:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+	  text-align:justify;}
   .posts li .date {
     color: gray;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
