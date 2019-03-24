@@ -32,6 +32,7 @@ Detailed code and implementation steps for this project can be found in the Jupy
 Binary classification evaluation metrics like Precision/Recall & accuracy can be used for evaluating the model. Since precision represents the number of relevant results, this clearly shows the percentage of positive return predictions made by the model. Also, CAGR (Compound Annual Growth Rate) & Sharpe ratio are calculated for evaluating the trading strategy. 
 
  	- **CAGR**: It tells what an investment yields on an annually compounded basis 
+    
  	- **Sharpe ratio**: It shows the return of an investment compared to its risk. 
 
 ### Model Deployment:
