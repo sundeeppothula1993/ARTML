@@ -40,8 +40,9 @@ The True power of ARTML can be exploited during the deployment. Once the model w
 
 ### References:
 
-https://finance.yahoo.com/quote/SPY?p=SPY
-https://www.investopedia.com/terms/s/sharperatio.asp
-https://www.investopedia.com/terms/c/cagr.asp
-http://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
-https://www.researchgate.net/publication/309492895_Forecasting_to_Classification_Predicting_the_direction_of_stock_market_price_using_Xtreme_Gradient_Boosting
+1. https://finance.yahoo.com/quote/SPY?p=SPY
+2. https://www.investopedia.com/terms/s/sharperatio.asp
+3. https://www.investopedia.com/terms/c/cagr.asp
+4. http://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
+5.https://www.researchgate.net/publication/309492895_Forecasting_to_Classification_Predicting_the_direction_of_stock_market_price_using_Xtreme_Gradient_Boosting
+
