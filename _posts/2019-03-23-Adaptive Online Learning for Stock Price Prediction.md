@@ -25,13 +25,14 @@ A new feature of ‘return’ is created by considering the next days closing pr
 
 Linear Discriminant Analysis (LDA) algorithm is used for making the return predictions in our case. Whole training data is sliced into subsets and LDA model is incrementally trained and tested over an unseen 2018-19 stock data. Since this is a Time series data, we cannot randomly split the data instead data is sliced into different sets in the same order.  (In real scenarios we can update the model with the new stock data and use these updated models for making the future predictions.) Here our main goal is to show how the drift in data distribution can be used to update the models to make better predictions. Also, this project does not focus on building the complex trading strategies (features) to increase the prediction accuracies rather its main focus is to show the power of ARTML for addressing the concept drift issues in stock data. When powerful are models built using this powerful ARTML technique, this synergic effect could be a game-changer.
 
-Detailed code and implementation steps for this project can be found in the Jupyter notebook
+Detailed code and implementation steps for this project can be found in the [Jupyter notebook] (https://github.com/AdaptiveMachineLearning/artml/blob/master/examples/StockPrice_Prediction_ARTML.ipynb)
 
 ### Results & Model Evaluation:
 
 Binary classification evaluation metrics like Precision/Recall & accuracy can be used for evaluating the model. Since precision represents the number of relevant results, this clearly shows the percentage of positive return predictions made by the model. Also, CAGR (Compound Annual Growth Rate) & Sharpe ratio are calculated for evaluating the trading strategy. 
 
  	- **CAGR**: It tells what an investment yields on an annually compounded basis 
+    
     
  	- **Sharpe ratio**: It shows the return of an investment compared to its risk. 
 
