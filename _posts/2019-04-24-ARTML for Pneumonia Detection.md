@@ -52,8 +52,3 @@ Above results clearly show that by updating the model continuously it will help 
 2. [CheXnet Stanford ML group](https://stanfordmlgroup.github.io/projects/chexnet/)
 3. [Penumonia Data Exploration](https://www.kaggle.com/zahaviguy/what-are-lung-opacities)
 4. [Kaggle Data - Credit card fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud/kernels)
-
-
-
-
-
