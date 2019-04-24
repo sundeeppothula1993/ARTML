@@ -7,7 +7,6 @@ Pneumonia is a form of a respiratory infection that affects the lungs and it is 
 <p align="center">
 	<img src="{{ '/assets/img/Pneumonia1.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
-
 Detecting infection in early stages is crucial for curing pneumonia. Chest X-rays are currently the best available method for detecting this. However, using chest X-rays is a challenging task since it requires expert radiologists for making the decision.Also, statistics show that Pneumonia is most prevalent in South Asia and sub-Saharan Africa where there are only a few experts to classify chest X-ray for abnormalities. Hence there is a lot of research in this area for building models that can automatically detect pneumonia from chest X-rays. State of the art models like CheXNet developed by Stanford ML group is making detections at a level exceeding practicing radiologists. One significant problem with the current solution is that it doesn’t leverage the vast amount of labeled data which is generated every day. Using this data could make models more robust and effective for pneumonia detection. Current work explores ARTML methodology for building models that are scalable and giving the power of continual learning.
  
 #### Data Preparation:
@@ -23,7 +22,6 @@ Below images show the Normal lungs and the one affected with pneumonia.  In the 
 <p align="center">
 	<img src="{{ '/assets/img/pneumonia2.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
-
 #### Modeling:
 
 Initially, convolutional network is built using the [Chest Xray images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and [RSNA Pneumonia data] dataset which has around 5200 training images. After building the CNN network ARTML QDA and Naïve Bayesian models are trained on the extracted features. As discussed earlier since the idea of using ARTML is also to address the scalability issues, all the remaining image data (25000 images ≈5GB) are incrementally updated in the model using ARTML inbuilt functions. No cloud or GPU power is used for training the image data, all the models are trained on a standard laptop with 8GB RAM. This clearly proves the scalability power of ARTML models. Look into the Jupyter notebook for detailed code.
@@ -35,7 +33,6 @@ Model is tested on a dataset which has 624 images. When the ARTML model is used 
 <p align="center">
 	<img src="{{ '/assets/img/pnuemonia_results1.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
-
 **Ensembles**: To further improve model performance different CNN feature extractors could also be built using the initial training data and use all the extracted features for building different ARTML models. Final prediction could be decided based on either the majority of the predictions or using the average of the predicted probabilities on the testing data. 
 
 #### Deployment:
@@ -47,7 +44,6 @@ Trained ARTML model is updated using the Test data in an incremental way to veri
 <p align="center">
 	<img src="{{ '/assets/img/pnuemonia_results2.PNG' | prepend: site.baseurl }}" alt=""  width="900"/> 
 </p>
-
 Above results clearly show that by updating the model continuously it will help to reduce the model bias over time. Overall we can observe that ARTML is on par with the existing state of the art deepnets in its performance, additionally giving flexibilities to learn/forget in real time just by using limited computational resources.
 
 #### References:
