@@ -12,7 +12,7 @@ Detecting infection in early stages is crucial for curing pneumonia. Chest X-ray
  
 #### Data Preparation:
 
-Two datasets [Chest Xray images] (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and [RSNA Pneumonia data] (https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/overview/description) from Kaggle are used for building the ARTML model. Dataset-1 has 5218 training images and dataset 2 has 26684 images respectively. Testing data is considered from data 1 which has 604 images. Images are in [DICOM] (https://medium.com/@vivek8981/dicom-to-jpg-and-extract-all-patients-information-using-python-5e6dd1f1a07d) format -  which is the standard file format for medical information. All these images are imported in python environment and converted into JPG format with 150*150-pixel size.
+Two datasets [Chest Xray images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and [RSNA Pneumonia data](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/overview/description) from Kaggle are used for building the ARTML model. Dataset-1 has 5218 training images and dataset 2 has 26684 images respectively. Testing data is considered from data 1 which has 604 images. Images are in [DICOM](https://medium.com/@vivek8981/dicom-to-jpg-and-extract-all-patients-information-using-python-5e6dd1f1a07d) format -  which is the standard file format for medical information. All these images are imported in python environment and converted into JPG format with 150*150-pixel size.
 
 Reason for using two datasets is to gather varied images for training so as to make the model more robust. Also, generally building Deep models using large data is a challenging task - we used this large corpus of data here to prove how ARTML scalability power could make this task easy even with limited computational power.
 
@@ -26,7 +26,7 @@ Below images show the Normal lungs and the one affected with pneumonia.  In the 
 
 #### Modeling:
 
-Initially, convolutional network is built using the [Chest Xray images] (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and [RSNA Pneumonia data] dataset which has around 5200 training images. After building the CNN network ARTML QDA and Naïve Bayesian models are trained on the extracted features. As discussed earlier since the idea of using ARTML is also to address the scalability issues, all the remaining image data (25000 images ≈5GB) are incrementally updated in the model using ARTML inbuilt functions. No cloud or GPU power is used for training the image data, all the models are trained on a standard laptop with 8GB RAM. This clearly proves the scalability power of ARTML models. Look into the Jupyter notebook for detailed code.
+Initially, convolutional network is built using the [Chest Xray images](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and [RSNA Pneumonia data] dataset which has around 5200 training images. After building the CNN network ARTML QDA and Naïve Bayesian models are trained on the extracted features. As discussed earlier since the idea of using ARTML is also to address the scalability issues, all the remaining image data (25000 images ≈5GB) are incrementally updated in the model using ARTML inbuilt functions. No cloud or GPU power is used for training the image data, all the models are trained on a standard laptop with 8GB RAM. This clearly proves the scalability power of ARTML models. Look into the Jupyter notebook for detailed code.
 
 #### Evaluation:
  
